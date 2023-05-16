@@ -25,9 +25,13 @@ Hardware
 
  ZS-040 CC2541 HM-10 
  
+ This device is 3.3V logic level. SO for the MCU-transmit line we step down with a voltage divider to 3.3V logic to avoid damage to module. 
+ 
 ![Bt](https://github.com/gavinlyonsrepo/pic_16F18446_projects/blob/master/images/bluetooth.jpg)
 
 *Mq-7 sensor module*
+
+We use a power MOSFET to pulse the Sensor on/off at different voltages as per heating cycle described in datasheet.  
 
  ![Mq](https://github.com/gavinlyonsrepo/MQ7Bluetooth/blob/main/doc/images/mq7.jpg)
 
